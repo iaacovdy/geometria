@@ -67,11 +67,11 @@ class Square(Rectangle):
 bl_point = Point(0, 0)
 rect = Rectangle(bl_point, 4, 5)
 
-# Method 2:
+# Metodo 2:
 center_point = Point(2, 2)
 rect_center = Rectangle(center_point, 4, 6)
 
-# Method 3:
+# Metodo 3:
 bl_point_2 = Point(0, 0)
 ur_point = Point(4, 6)
 rect_corners = Rectangle(bl_point_2, ur_point)
